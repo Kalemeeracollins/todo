@@ -1,3 +1,4 @@
+
 'use client'
 import React, { useState, useEffect } from 'react';
 
@@ -96,21 +97,21 @@ const Table = () => {
 const AddUserForm = ({ formData, handleChange, handleSubmit }) => {
   return (
     <form onSubmit={handleSubmit} style={{ marginBottom: '20px' }}>
-      <input
+      <input  style={{ color: 'black' }}
         type="text"
         placeholder="Username"
         name="Username"
         value={formData.Username}
         onChange={handleChange}
       />
-      <input
+      <input style={{ color: 'black' }}
         type="text"
         placeholder="Phone"
         name="Phone"
         value={formData.Phone}
         onChange={handleChange}
       />
-      <input
+      <input style={{ color: 'black' }}
         type="email"
         placeholder="Email"
         name="Email"
