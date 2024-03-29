@@ -69,7 +69,7 @@ const Table = () => {
       <table style={{ borderCollapse: 'collapse', border: '1px solid black' }}>
         <thead>
           <tr>
-            <th style={{ border: '1px solid greenyellow', padding: '8px' }}>Edit user</th>
+            <th style={{ border: '1px solid red', padding: '8px' }}>Edit user</th>
             <th style={{ border: '1px solid black', padding: '8px' }}>Username</th>
             <th style={{ border: '1px solid black', padding: '8px' }}>Phone</th>
             <th style={{ border: '1px solid black', padding: '8px' }}>Email</th>
