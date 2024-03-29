@@ -73,7 +73,7 @@ const Table = () => {
             <th style={{ border: '1px solid black', padding: '8px' }}>Username</th>
             <th style={{ border: '1px solid black', padding: '8px' }}>Phone</th>
             <th style={{ border: '1px solid black', padding: '8px' }}>Email</th>
-            <th style={{ border: '1px solid black', padding: '8px' }}>Delete</th>
+            <th style={{ border: '1px solid blue', padding: '8px' }}>Delete</th>
           </tr>
         </thead>
         <tbody>
