@@ -1,9 +1,11 @@
 import Table from './Table'
+import RegisterPage from './post'
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Table />
+      // <Table />
+      <RegisterPage />
     </main>
   );
 }
